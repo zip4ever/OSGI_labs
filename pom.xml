@@ -19,8 +19,8 @@
           <instructions>
             <Bundle-Name>${project.name}</Bundle-Name>
             <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-            <Bundle-activator>org.bhn.training.activator.SimpleActivator</Bundle-activator>
             <Export-Package>org.bhn.training.api</Export-Package>
+            <Service-Component>OSGI-INF/greetercomponent.xml, OSGI-INF/greetcommandcomponent.xml</Service-Component>
           </instructions>
         </configuration>
       </plugin>
